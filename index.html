@@ -1,0 +1,171 @@
+<!doctype html>
+	<html>
+		<head>
+		<style>
+		.note {
+			font-size: 50%;
+			color: green;
+		
+		}
+		.sehir {<!--yeni bir class tanımladık. body alanında class çağırıp(div)ile ayrı bölümler oluşturduk-->
+		background-color: black;
+		color: red;
+		margin: 10px;
+		padding: 10px;
+		
+		}
+		a:link, a:visited {
+		background-color: gray;
+		text-decoration: none;
+		padding:20px 25px;
+		text-align: center;
+		display: inline-block;
+		
+		}
+		a:hover, a:active {
+		background-color: red;}
+		body {background-color:white;}
+		h2 {background-color:white;}
+		p {color: orange;}
+		</style>
+			<meta charset="utf-8"/>
+			<title>Örnek 2</title>
+		</head>
+		<body>
+		<nav>
+			<a href="#Yemek">Yemek Menüsü</a>
+			<a href="#Kalabalık">Kalabalık İllerimiz</a>
+			<a href="#Bazı İller">Bazı İller Tablosu</a>
+			<a href="#Deniz">Denizi Olan İller</a>
+			
+		
+		</nav>
+		
+			<h1>Örnek 2</h1>
+			<p>HTML öğreniyorum. HTML öğrenmek için 
+			<a href="https://www.w3schools.com/" target="_blank">w3schools </a>
+			sitesine sıklıkla kullanıyorum
+			</p>
+			<div>
+			<img src="Manzara.jpg" width="200" weight="200" />
+			</div>
+			<h2 id="Yemek">Yemek Listesi</h2>
+			<ul><!--unordered list -->
+				<!-- list item -->
+				<li>Ezogelin Çorba</li><!--ctrl d ile aynı satırı aşağı indir/çoğalt-->
+				<li>Kuru Fasulye</li>
+				<li>Cacık</li>
+				<li>Tatlı</li>
+						
+			</ul>
+		<h2 id="Kalabalık">Kalabalık İllerimiz</h2>	
+		
+		<!-- ordered list -->
+		<ol>
+			<li>İstanbul</li>
+			<li>Ankara</li>
+			<li>İzmir</li>
+		</ol>
+		<h2 id="Bazı İller">Bazı İller Tablosu</h2>
+		
+		<table border="1">
+			<tr>
+				<th>Plaka</th><th>Ad</th><th>Meşhur</th>
+				
+			</tr>
+			<tr>
+			<td>01</td><td>Adana</td><td>Kebap</td>
+			</tr>
+			<tr>
+			<td>06</td><td>Ankara</td><td>Keçi</td>
+			</tr>
+			<tr>
+			<td>34</td><td>İzmir</td><td>Boyoz</td>
+			</tr>
+			
+		</table>
+		<h2 id="Deniz">Denizi Olan İller</h2>		
+		
+		<table border="1">
+			<thead>
+			
+				<tr><th>Plaka</th><th>Ad</th><th>Nüfus</th><th>Denizi</th></tr>
+			
+			</thead>
+				
+			<tbody>
+				
+				<tr><td>7</td><td>Antalya</td><td>2426000</td><td rowspan="5">VAR</td></tr><!--rowspan satır birleştir-->
+				<tr><td>16</td><td>Bursa</td><td>2995000</td></tr>
+				<tr><td>55</td><td>Samsun</td><td>1336000</td></tr>
+				
+			
+			</tbody>
+			<tfoot>
+				<tr><th colspan="2">Toplam</th><<th>6757000</th><th></th></tr><!--colspan sayı kadar yere yayıl-->
+				
+				
+			</tfoot>
+		</table>
+		
+		<a href="#">[Başa Dön]</a><!--Sayfa başına döndürme tuşu-->
+		
+		<p><i>İngiltere</i>, kendi geliştirdiği temas takip uygulamasını bırakıp, Apple ve Google'ın geliştirdiği teknolojiyi temel alan modeli kullanmaya başlıyor.</p>
+
+<p>BBC dün, <strong>Apple</strong>'ın eski yöneticisi <em>Simon Thompson</em>'ın İngiltere'deki temas takip uygulamasının başına geçtiğini duyurmuştu. Hükümetin bu 'u-dönüşü' de bu haberin üzerine geldi.</p>
+
+<p><b>Apple</b> ve <b>Google</b>'ın tasarladığı teknoloji kişisel veri güvenliğini merkezine alıyor. Bu sistemde bireylerin veriler üzerinde daha fazla kontrolü var.</p>
+
+<p>Ama bu sistemle epidemiyologlar daha az veriye erişim sağlıyor.</p>
+
+<p>Bluetooth teknolojisine dayalı akıllı cep telefonu sistemlerinin sağlayacağı verilerin ne kadar güvenilir olacağına dair ise soru işaretleri var.</p>
+
+<p>Almanya, Avusturya, ve Uruguay da son dönemde 'merkezi' sistemden 'merkezi olmayan' temas takip uygulamalarına geçmişti.</p>
+
+<p>Benim evim 120m<sup>2</sup></p>
+<p>log<sub>2</sub>8=3</p>
+
+<h2>Galatasaray renkleri</h2>
+<p>Galatasaray Kulübünün renkleri</p>
+	<ul>
+		<li style="color:yellow;">Sarı</li>
+		<li style="color:red;">Kırmızı</li>
+	</ul>
+<p>olarak belirlenmiştir.</p>
+
+<p>
+	<a href="http://galatasaray.org/" target="_blank">Galatasaray</a>
+</p>
+
+<p>
+	<a href="#Kalabalık">Kalabalık İllerimiz</a>
+</p>
+
+<p>
+<img src="manzara.jpg" alt="Manzara Fotoğrafı" width="100" height="100">
+
+</p>
+
+<div class="sehir">
+	<h2>İstanbul</h2>
+	<p>Osmanlı İmparatorluğu Başkenti</p>
+</div>
+<div class="sehir">
+	<h2>Konya</h2>
+	<p>Selçuklu İmparatorluğu Başkenti</p>
+</div>
+<div class="sehir">
+	<h2>Ankara</h2>
+	<p>Türkiye Cumhuriyeti Başkenti</p>
+</div>
+	
+
+<h4>Sonraki Kelime daha <span class="note">küçük</span> yazılacak</h4>
+<p>Ayrıca bu paragraftaki kelime de <span class="note">küçük </span>yazılacak!</p>
+
+
+
+
+		
+		</body>
+	</html>
